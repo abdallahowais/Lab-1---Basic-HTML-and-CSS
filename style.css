@@ -12,11 +12,16 @@ h1{
   color:white;
     text-align: center;
     text-transform: uppercase;
-}
+    position: sticky;
+    top: 0%;
+width: 100%;}
 
 a{
     text-decoration: none;
     color: #30349a;
+}
+a:hover{
+    text-decoration: underline;
 }
 
 .line{
@@ -43,6 +48,13 @@ div p {
 
 .mcolor{
     color:brown ;
+    text-transform: capitalize;
+
+}
+.al-quds{
+    text-transform: uppercase;
+    color:brown ;
+
 }
 
 ul ,ol  {
@@ -50,7 +62,14 @@ ul ,ol  {
     font-size: large;
     font-size: 17px;
     font-weight: bold;
+
 }
+ol{
+    width: 30%;
+    height: 200px;
+    overflow-y: scroll;
+}
+
 
 #m{
     width: 33%;
@@ -69,6 +88,17 @@ p{
     margin: 15px 20px;
     padding: px;
     font-size: large;
+
 }
+p::first-letter{
+    font-size: 1.5em;
+
+}
+ol li dl dd{
+
+    margin-left: 25px;
+}
+
+
 
 
