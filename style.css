@@ -68,6 +68,8 @@ ol{
     width: 30%;
     height: 200px;
     overflow-y: scroll;
+    display: flex;
+  flex-direction: column-reverse;
 }
 
 
@@ -86,7 +88,6 @@ h2{
 
 p{
     margin: 15px 20px;
-    padding: px;
     font-size: large;
 
 }
